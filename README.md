@@ -8,7 +8,7 @@ Download the mongodb community (Compass) and shell to access and manage the data
 
 Open Command prompt and then connect mongodb with the command of ***mongosh***
 
-Using ***show dbs** command which is used to list out all the database.
+Using **show dbs** command which is used to list out all the database.
 
 Now we are creating one database with the name of ***mongodb-tasks*** by using below commands.
 
