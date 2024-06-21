@@ -30,5 +30,5 @@ Q9.Find products which contain product color indigo  and product price 492.00?
 Ans: db.products.find({product_color : {$eq : "indigo"} , product_price : {$eq : 492 }});
 
 Q10.Delete the products which product price value are 28?
-Ans:  db.products.deleteOne({product_price: 28});
+Ans:  db.products.deleteMany({product_price: 28});
 
